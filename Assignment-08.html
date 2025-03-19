@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-08</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+          <center><h1 style="background-color: bisque;">Form-01</h1></center>
+            <legend>The First Section</legend>
+            <fieldset>
+                <legend>The First Subsection</legend>
+                <label for="field1-sub1">field1</label><br>
+                <input type="text" id="field1-sub1"><br><br>
+            </fieldset>
+            <label for="field1-main">field1</label><br>
+            <input type="text" id="field1-main"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Section II</legend>
+            <fieldset>
+                <legend>Section II-A</legend>
+                <label for="field1-IIA">field1</label><br>
+                <input type="text" id="field1-IIA"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Section II-B</legend>
+                <label for="field1-IIB">field1</label><br>
+                <input type="text" id="field1-IIB"><br><br>
+            </fieldset>
+        </fieldset>
+
+        <br>
+        <button>Go! Go! Go!</button>
+    </form>
+    <hr>
+    <center><h1 style="background-color: bisque;">Form-02</h1></center>
+    <form>
+        <!-- Login Details Section -->
+        <fieldset>
+            <legend>Login details</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password"><br><br>
+        </fieldset>
+    
+        <!-- Feedback Section -->
+        <fieldset>
+            <legend>Your feedback</legend>
+    
+            <p>Please check all the emotions that apply to you:</p>
+            <label>Angry <input type="checkbox"></label><br>
+            <label>Sad <input type="checkbox"></label><br>
+            <label>Happy <input type="checkbox"></label><br>
+            <label>Ambivalent <input type="checkbox"></label><br><br>
+    
+            <p>How satisfied were you with our service?</p>
+            <label>Very satisfied <input type="radio" name="satisfaction"></label><br>
+        </fieldset>
+    </form>
+    <hr>
+     <center><h1 style="background-color: bisque;">Form-03</h1></center>
+     <form>
+        <!-- Login Section -->
+        <fieldset>
+            <legend>Login</legend>
+            <label for="username">Username*</label><br>
+            <input type="text" id="username"><br><br>
+    
+            <label for="password">Password*</label><br>
+            <input type="password" id="password"><br><br>
+        </fieldset>
+    
+        <!-- Gender Section -->
+        <fieldset>
+            <legend>Gender*</legend>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+        </fieldset>
+    
+        <!-- Programming Skill Section -->
+        <fieldset>
+            <legend>Programming Skill</legend>
+            <input type="checkbox" id="java" checked>
+            <label for="java">Java</label>
+    
+            <input type="checkbox" id="cpp" checked>
+            <label for="cpp">C++</label>
+    
+            <input type="checkbox" id="csharp">
+            <label for="csharp">C#</label>
+        </fieldset>
+    
+        <!-- Fruit Selection -->
+        <fieldset>
+            <legend>Fruit</legend>
+            <label for="fruit">Choose a fruit:</label>
+            <select id="fruit">
+                <option>Banana</option>
+            </select>
+        </fieldset>
+    
+        <!-- Comment Box -->
+        <textarea rows="4" cols="50" placeholder="Enter your comment here"></textarea><br><br>
+    
+        <!-- Buttons -->
+        <button type="submit">SEND</button>
+        <button type="reset">RESET</button>
+    </form>
+    <hr>
+    <center><h1 style="background-color: bisque;">Form-04</h1></center>
+    <h1>User Registration Form</h1>
+
+    <form action="#" method="post">
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm_password"><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Address Details Section -->
+        <fieldset>
+            <legend><b>Address Details</b></legend>
+            <label for="address1">Address line one:</label>
+            <input type="text" id="address1" name="address1"><br><br>
+
+            <label for="address2">Address line two:</label>
+            <input type="text" id="address2" name="address2"><br><br>
+
+            <label for="city">Town / City:</label>
+            <input type="text" id="city" name="city"><br><br>
+
+            <label for="zip">Zip / Post code:</label>
+            <input type="text" id="zip" name="zip"><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Sign Up Button -->
+        <button type="submit">Sign Up</button>
+    </form>
+    <hr>
+    <center><h1>Form-05</h1></center>
+    <center><h1 style="background-color: bisque;">Registration Form</h1>
+
+        <p><i>Of course, all submitted information is kept in the strictest confidence.<br>
+        You always retain control of your information with D.W. Simpson & Co.</i></p>
+    
+        <p><b>Our services are always at no cost to you.</b></p></center>
+    
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+    
+            <label for="address">Address:</label>
+            <input type="text" id="address"><br><br>
+    
+            <label for="city">City:</label>
+            <input type="text" id="city">
+    
+            <label for="state">State/Province:</label>
+            <input type="text" id="state"><br><br>
+    
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip"><br><br>
+    
+            <label for="country">Country:</label>
+            <input type="text" id="country"><br><br>
+    
+            <label for="phoneH">Phone (H):</label>
+            <input type="text" id="phoneH">
+    
+            <label for="fax">Fax:</label>
+            <input type="text" id="fax"><br><br>
+    
+            <label for="phoneW">Phone (W):</label>
+            <input type="text" id="phoneW"> (if able to speak freely)<br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br><br>
+    
+            <label for="company">Company Name:</label>
+            <input type="text" id="company"> (optional)<br><br>
+    
+            <label for="region">Desired Region:</label>
+            <select id="region">
+                <option>Other</option>
+            </select>
+    
+            <label for="other-region">Other:</label>
+            <input type="text" id="other-region"><br><br>
+    
+            <b>Professional designations earned:</b><br>
+            <input type="checkbox" id="college">
+            <label for="college">College Student</label>
+    
+            <input type="checkbox" id="actuarial">
+            <label for="actuarial">Actuarial Student</label>
+    
+            <input type="checkbox" id="acas">
+            <label for="acas">ACAS</label>
+    
+            <input type="checkbox" id="fcas">
+            <label for="fcas">FCAS</label>
+    
+            <input type="checkbox" id="asa">
+            <label for="asa">ASA</label><br>
+    
+            <input type="checkbox" id="fsa">
+            <label for="fsa">FSA</label>
+    
+            <input type="checkbox" id="ea">
+            <label for="ea">EA</label>
+    
+            <input type="checkbox" id="cfa">
+            <label for="cfa">CFA</label>
+    
+            <input type="checkbox" id="mba">
+            <label for="mba">MBA</label>
+    
+            <input type="checkbox" id="maaa">
+            <label for="maaa">MAAA</label><br>
+    
+            <input type="checkbox" id="fia">
+            <label for="fia">FIA</label>
+    
+            <input type="checkbox" id="fcia">
+            <label for="fcia">FCIA</label>
+    
+            <input type="checkbox" id="fiaa">
+            <label for="fiaa">FIAA</label>
+    
+            <input type="checkbox" id="financial">
+            <label for="financial">Financial Engineer</label>
+    
+            <input type="checkbox" id="ms">
+            <label for="ms">M.S.</label><br>
+    
+            <input type="checkbox" id="phd">
+            <label for="phd">Ph.D.</label>
+    
+            <input type="checkbox" id="data">
+            <label for="data">Data Mining</label>
+    
+            <input type="checkbox" id="quant">
+            <label for="quant">Quant</label><br><br>
+    
+            <b>Other Designations:</b><br>
+            <input type="text" id="other-designations" size="50"><br><br>
+    
+            <button type="submit">Submit</button>
+    
+        </form>
+<hr>
+<center><h1 style="background-color: bisque;">Form-06</h1></center>  
+<h2 style="text-align: center;"><u>Registration form</u></h2>
+<form style="margin: auto; width: 50%; background-color: white; padding: 20px;">
+    <table>
+        <tr>
+            <td><label>First Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Last Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Nick Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>e-mail</label></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Others
+            </td>
+        </tr>
+        <tr>
+            <td><label>Mobile</label></td>
+            <td><input type="tel"></td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><textarea rows="4" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<hr>
+<center><h1 style="background-color: bisque;">Form-07</h1></center>
+<h2 align="center">ACCOUNT OPENING FORM</h2>
+
+    <b>Personal Details</b>
+    <hr>
+
+    <form>
+        <table>
+            <tr>
+                <td>Name*</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>Name of (Father/Guardian)</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth * (dd-mm-yyyy)</td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>Gender*</td>
+                <td>
+                    <input type="radio" name="gender" required> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Nationality</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Account Type*</td>
+                <td>
+                    <input type="radio" name="account_type" required> Savings
+                    <input type="radio" name="account_type"> Fixed
+                </td>
+            </tr>
+            <tr>
+                <td>Preferences</td>
+                <td>
+                    <input type="checkbox"> Internet Banking
+                    <input type="checkbox"> Mobile Banking
+                    <input type="checkbox"> SMS Alerts
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>Country*</td>
+                <td>
+                    <select>
+                        <option>Please select...</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>India</option>
+                        <option>Canada</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip Code*</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>Phone*</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>Email*</td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td>Password (6-8 characters)*</td>
+                <td><input type="password" required></td>
+            </tr>
+            <tr>
+                <td>Verify Password*</td>
+                <td><input type="password" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="SEND">
+                    <input type="reset" value="CLEAR">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
